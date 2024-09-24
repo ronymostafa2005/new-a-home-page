@@ -1,0 +1,316 @@
+/**home page**/
+.images{
+    background-image: url("/src/Pages/images/blurred-medical-office-background-light-doctor-room-defocused-hospital-interior-health-care-concept_839035-1840663.avif")  ;
+    background-repeat: no-repeat; 
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;  
+    height: 800px; 
+    bottom: 20px;
+    background-position: center;
+}
+
+
+.image2{
+    position: relative;
+    float: right;
+    bottom: 15%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
+    border-radius: 40%; 
+    align-items: end;
+    margin-left: 0%;
+    width: 30%;  
+    height: 500px; 
+    right: 15px;
+    margin-top: 40px;
+    
+}
+
+/**text section**/
+.h1{
+    position: relative;
+    bottom: 150px;
+    align-items:center ; 
+    top: 220px;
+    margin-left: 40px;
+    color: rgb(19, 23, 25);
+}
+
+.images   h4{
+    position: relative;
+    bottom: 350px;
+    align-items: center;
+    top: 250px ;
+    margin-left: 40px;
+    width: 550px;
+    color: rgb(81, 94, 105);
+    
+}
+
+.images   h3{
+    position: relative;
+    bottom: 350px;
+    align-items: center;
+    top: 200px ;
+    margin-left: 40px;
+    width: 550px;
+    color: rgb(65, 78, 89);
+}
+
+
+/**end style text**/
+
+/** button home**/
+
+.images .but1{
+    position: relative;
+    padding: 15px;
+    bottom: 350px;
+    align-items: center;
+    top: 300px ;
+    margin-left: 100px;
+    width: 100px;
+    background-color: rgb(249, 255, 255);
+    border-radius: 40%;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.images .but1:hover{
+    background-color: rgb(151, 186, 246);
+    
+}
+
+.images .but2{
+    position: relative;
+    padding: 15px;
+    bottom: 350px;
+    align-items: center;
+    top: 300px ;
+    margin-left: 150px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+
+.images .but2:hover{
+    color: aliceblue;
+    background-color: cornflowerblue;
+}
+
+/**icon style**/
+
+
+.images .icon1{
+    position: relative;
+    bottom: 150px;
+    align-items:center ; 
+    top: 290px;
+    right: 10%;
+    width: 50px;
+    height: 25px;
+    margin-left: 60%;
+}
+
+/**( section 2,home page)**/
+
+
+    .bgsection2{
+        position: relative;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 450px;
+        margin-top: 0px;
+    }
+    @media (max-width: 768px) {
+        .technology {
+          grid-template-columns: repeat(1, 1fr); /* كرت واحد لكل صف في الشاشات الصغيرة */
+        }
+    }
+
+    .technology {
+        background-image: url("/src/Pages/images/backgroung-pattern-1.png");
+        background: no-repeat;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 كروت بجانب بعضها */
+        gap: 20px; 
+        height: 100vh; 
+        align-items: center;
+        padding-left: 15px; 
+    }
+.inner-technology1 {
+    background-color: #f0f0f0;
+
+        background-image: url("/src/Pages/images/backgroung-pattern-1.png");
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل للكرت */
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+/****hover effect****/
+    .inner-technology1:hover{
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    }
+
+    .inner-technology2{
+    background-image: url("/src/Pages/images/backgroung-pattern-1.png");
+            position: relative;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            left: 50cap;
+            bottom: 18cap;
+            text-align: center;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+/****hover effect****/
+
+.inner-technology2:hover{
+
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.inner-technology3{
+    background-image: url("/src/Pages/images/backgroung-pattern-1.png");
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 100cap;
+    bottom: 33cap;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/****hover effect****/
+
+.inner-technology3:hover{
+    transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/****@section 3@*****/
+
+
+.vid1{
+    position: relative;
+    bottom: 25cap;
+    float: right;
+    border-radius: 20%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+
+}
+.h2-vid1{
+    position: relative;
+    bottom: 10cap;
+    font-size: 2.5cap;
+    color: rgb(117, 163, 169);
+    
+
+}
+
+
+/******style section 4  (counter)*******/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+    margin: 0;
+}
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:first-child {
+    background-color: #aaa;
+}
+section:nth-child(2) {
+    background-color: #bbb;
+}
+section:nth-child(3) {
+    background-color: #ccc;
+}
+section:last-of-type {
+    background-color: #eee;
+}
+.progress {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    margin: 10px;
+}
+.progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: indianred;
+    transition: width 0.3s linear;
+}
+
+.section4{
+    position: relative;
+    bottom: 20cap;
+}
+
+.box1{
+    color: rgb(75, 99, 144);
+    position: relative;
+    bottom: 30cap;
+    margin-left: 120px;
+}
+
+.box2{
+    color: rgb(181, 212, 212);
+    position: relative;
+    bottom: 26cap;
+    margin-left: 120px;
+}
+
+.box3{
+    color: aquamarine;
+    position: relative;
+    bottom: 23cap;
+    margin-left: 120px;
+}
+
+.progress{
+    padding-top: 10cap;
+}
+
+.three{
+    height: 50%;
+}
+
+.photo{
+    position: relative;
+    left: 50%;
+    margin-right: 60px;
+    bottom: 650px;
+    width: 640px;
+    height: 600px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 40%;
+
+}
